@@ -8,6 +8,8 @@ public class MonsterCard {
     private MonsterTypeEnum monsterType;
     private boolean fainted;
 
+    // 3 construct
+
     public MonsterCard(String monsterName, MonsterTypeEnum monsterType) {
         this.monsterName = monsterName;
         this.monsterType = monsterType;
@@ -37,10 +39,10 @@ public class MonsterCard {
         return monster;
     }
 
-    public void setMonster(Monster monster) {
+   /* public void setMonster(Monster monster) {
         this.monster = monster;
     }
-
+*/
     public boolean isFainted() {
         return monster == null || monster.getHealthBar() <= 0;
     }

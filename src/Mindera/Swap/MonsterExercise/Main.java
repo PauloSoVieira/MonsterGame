@@ -1,5 +1,6 @@
 package Mindera.Swap.MonsterExercise;
 
+import Mindera.Swap.MonsterExercise.monsters.Mummy;
 import Mindera.Swap.MonsterExercise.monsters.Vampire;
 import Mindera.Swap.MonsterExercise.monsters.Werewolf;
 
@@ -15,10 +16,28 @@ public class Main {
 
         game.startGame();
 
+Witch witch = new Witch(100,10);
 
-        Vampire vampire = new Vampire(100, 5);
+
+     Vampire vampire = new Vampire(100, 60);
         Werewolf werewolf = new Werewolf(100, 5);
+        Mummy mummy = new Mummy(100,10);
 
+//vampire.attack(werewolf);vampire.attack(werewolf);vampire.attack(werewolf);
+int a =werewolf.getHealthBar();
+        //System.out.println(a);
+    /*  vampire.attack(witch);
+        witch.getHealthBar();
+        Fairy fairy = new Fairy(10,"fairy");
+
+        vampire.attack(fairy);
+
+        mummy.attack(werewolf);mummy.attack(werewolf);mummy.attack(werewolf);
+        System.out.println("werewolf left with : ");
+        werewolf.getHealthBar();*/
+     //   System.out.println("Werewolf initial health: " + werewolf.getHealthBar());
+     //   vampire.attack(werewolf);
+    //    System.out.println("Werewolf health after attack: " + werewolf.getHealthBar());
 
         //  vampire.vampireAttack(werewolf);
         //  werewolf.getHealthBar();

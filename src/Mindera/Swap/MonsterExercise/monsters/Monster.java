@@ -1,52 +1,57 @@
 package Mindera.Swap.MonsterExercise.monsters;
 
-public abstract class Monster {
-    private int healthBar;
-    private int attackDmg;
+import Mindera.Swap.MonsterExercise.Strikeable;
+import Mindera.Swap.MonsterExercise.Supernatural;
+
+public abstract class Monster extends Supernatural implements Strikeable {
+    protected int healthBar;
+  //  protected int attackDmg;
 
     public Monster(int healthBar, int attackDmg) {
+        super(attackDmg);
         this.healthBar = healthBar;
-        this.attackDmg = attackDmg;
+
+    }
+    public Monster(int healthBar, int attackDmg, String name) {
+        super(attackDmg,name);
+        this.healthBar = healthBar;
+
     }
 
-    public int attackBattle(Monster monster) {
+    @Override
+    public void takeDamage(int damage) {
+       // System.out.println("Monster current health: " + this.healthBar + ", taking damage: " + damage);
 
-        int currentHp = monster.getHealthBar();
-        int newHealthbar = currentHp - attackDmg;
-
-        if (currentHp <= 0) {
-            //System.out.println(monster + " is fainted you cant attack");
-            return newHealthbar;
+        this.healthBar -= damage;
+        if (this.healthBar < 0) {
+            this.healthBar = 0;
         }
-        //  System.out.println("This attack did " + this.attackDmg + " damage to " + monster.getClass().getSimpleName());
-        monster.setHealthBar(newHealthbar);
-        return newHealthbar;
+  //      System.out.println("Monster took damage: " + damage + ", updated health: " + this.healthBar); // Debugging statement
+    }
+    @Override
+    public int getHealthBar() {
+     //   System.out.println(healthBar);
+        return healthBar;
+    }
+
+    @Override
+    public void setHealthBar(int healthBar) {
+        this.healthBar = healthBar;
+    }
+
+    @Override
+    public boolean isFainted() {
+        return this.healthBar <= 0;
     }
 
     @Override
     public String toString() {
         return "Monster{" +
                 "healthBar=" + healthBar +
-                ", attackDmg=" + attackDmg +
+                ", attackDmg=" + getPower() +
                 '}';
     }
-
-    public int getHealthBar() {
-        if (healthBar <= 0) {
-            //  System.out.println("Monster has fainted");
-            return healthBar;
-        }
-        //System.out.println(healthBar);
-        return healthBar;
-    }
-
-    public void setHealthBar(int healthBar) {
-        this.healthBar = healthBar;
-    }
-
-    public int getAttackDmg() {
-        return attackDmg;
     }
 
 
-}
+

@@ -8,6 +8,11 @@ public enum MonstersEnum {
     private final int attackDamage;
     private final int HealthBar;
     private final MonsterTypeEnum monsterTypeEnum;
+    private String name ;
+
+    public String getName() {
+        return name;
+    }
 
     MonstersEnum(int attackDamage, int healthBar, MonsterTypeEnum monsterTypeEnum) {
         this.attackDamage = attackDamage;
@@ -36,4 +41,6 @@ public enum MonstersEnum {
         return "+monsterTypeEnum=" + monsterTypeEnum;
 
     }
+
+
 }
