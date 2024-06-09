@@ -1,11 +1,11 @@
 
 ’
-java:S1450	"VRemove the "fainted" field and declare it as a local variable in the relevant methods.(•…³J$465f29b2-73c0-4a58-a40e-1d5bc4c30db2
+java:S1450	"VRemove the "fainted" field and declare it as a local variable in the relevant methods.(•…³J$761694c8-2324-4b72-a217-1b22970b6a84
 j
-java:S1172/".Remove this unused method parameter "fainted".(ôÒ‡©J$79cf06df-f0ce-462f-8276-d42ea4fd7a27
+java:S1172.".Remove this unused method parameter "fainted".(ôÒ‡©J$10f878fc-f35b-42f4-b6e8-b1adad26b6e7
 q
-java:S1068"0Remove this unused "attackDamage" private field.(¯Ò“ıÿÿÿÿJ$e39de267-9e0c-4f50-9e48-84e8ae06cb62
+java:S1068"0Remove this unused "attackDamage" private field.(¯Ò“ıÿÿÿÿJ$ae722ad3-46a2-4c01-8a20-b381ba344d60
 h
-java:S1068",Remove this unused "healtBar" private field.(•¬Ï‚J$2abff091-e240-4d01-bf94-89efb189e93e
+java:S1068",Remove this unused "healtBar" private field.(•¬Ï‚J$e76edc64-6666-4818-a897-1e7d015eae97
 g
-java:S1068	"+Remove this unused "fainted" private field.(•…³J$f50991c0-1a6f-490d-b928-c9c6023141fc
+java:S1068	"+Remove this unused "fainted" private field.(•…³J$cec9ae7a-42ea-43aa-b36b-a9a9448c159b
