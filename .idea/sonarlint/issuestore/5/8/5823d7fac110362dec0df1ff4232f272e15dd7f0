@@ -1,0 +1,31 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á¦¤ÚøÿÿÿÿJ$a366b55c-9f2f-409c-ae20-684b972f4371
+v
+java:S1854"5Remove this useless assignment to local variable "a".(øËÒùÿÿÿÿJ$aad59ec7-f3c4-4af1-b480-e89c4a9c1e0d
+t
+java:S1854"9Remove this useless assignment to local variable "mummy".(¾‚UJ$df86ece9-1179-4056-865b-19307b13dadb
+|
+java:S1854";Remove this useless assignment to local variable "vampire".(œ­ùµÿÿÿÿÿJ$4a5adef4-bb89-493f-9916-4851cbbbbb11
+u
+java:S1854"9Remove this useless assignment to local variable "witch".(Ûş«ÎJ$28935e32-3bff-4b3d-8e09-ff7cd02dc347
+t
+java:S1854"8Remove this useless assignment to local variable "game".(áö²òJ$b907c811-6471-4ef7-8954-ba610a6bb531
+e
+java:S1481")Remove this unused "game" local variable.(áö²òJ$4e3dd34b-916b-428d-83cc-31c13ecf1339
+|	java:S125"<This block of commented-out lines of code should be removed.(Òš‘©úÿÿÿÿJ$fad47d7c-cb99-4cdd-9d9a-bf94a4ac80f4
+f
+java:S1481"*Remove this unused "witch" local variable.(Ûş«ÎJ$574d5cc9-a712-4cbc-9cfe-953647270035
+m
+java:S1481",Remove this unused "vampire" local variable.(œ­ùµÿÿÿÿÿJ$ba45219c-e990-4974-b5b1-75be6989f11f
+e
+java:S1481"*Remove this unused "mummy" local variable.(¾‚UJ$46f20544-0cd3-494d-86f9-8f9860128838
+|	java:S125"<This block of commented-out lines of code should be removed.(ŠÔªôüÿÿÿÿJ$1166f764-097c-4758-ba60-1675d0b2e4ee
+g
+java:S1481"&Remove this unused "a" local variable.(øËÒùÿÿÿÿJ$6a83649b-1439-4db7-b6fb-b63b401dd8a6
+|	java:S125"<This block of commented-out lines of code should be removed.(—æÎĞúÿÿÿÿJ$2c9e92aa-0f45-47af-9716-4e3a9a6d8a4d
+w	java:S125&"<This block of commented-out lines of code should be removed.(…’ÔÔJ$ce46b0a4-dffa-4ad3-8eec-19f08221d2ed
+|	java:S125*"<This block of commented-out lines of code should be removed.(ğÇİıøÿÿÿÿJ$c92a8c99-173b-4d7b-af6a-7b7d2862738a
+w	java:S1252"<This block of commented-out lines of code should be removed.(µ›ÚJ$78f4f9d1-41d2-4fcc-9660-9270d0c2b9ba
+|	java:S125;"<This block of commented-out lines of code should be removed.(Ù¥«¼ÿÿÿÿÿJ$5b61b389-4754-4832-aea1-f1d82de9c7ec
+|	java:S125@"<This block of commented-out lines of code should be removed.(§À±˜ûÿÿÿÿJ$93dfcaae-7696-4bd8-8412-4958da18c2df
+w	java:S125C"<This block of commented-out lines of code should be removed.(´Æ«™J$7caafd35-a52f-4a9b-bf42-dafe5fc72021

@@ -1,0 +1,13 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ãê·Íıÿÿÿÿ
+l
+java:S1450	"VRemove the "fainted" field and declare it as a local variable in the relevant methods.(•…³
+V	java:S125*"<This block of commented-out lines of code should be removed.(ÿóùşÿÿÿÿ
+D
+java:S11722".Remove this unused method parameter "fainted".(ôÒ‡©
+K
+java:S1068"0Remove this unused "attackDamage" private field.(¯Ò“ıÿÿÿÿ
+B
+java:S1068",Remove this unused "healtBar" private field.(•¬Ï‚
+A
+java:S1068	"+Remove this unused "fainted" private field.(•…³

@@ -14,7 +14,7 @@ public class Main {
 
         Game game = new Game();
 
-        game.startGame();
+     //   game.startGame();
 
 Witch witch = new Witch(100,10);
 
