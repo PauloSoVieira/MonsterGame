@@ -8,7 +8,6 @@ public class MonsterCard {
     private MonsterTypeEnum monsterType;
     private boolean fainted;
 
-    // 3 construct
 
     public MonsterCard(String monsterName, MonsterTypeEnum monsterType) {
         this.monsterName = monsterName;

@@ -25,15 +25,13 @@ public class Player {
         return name;
     }
 
-    //TODO Change createcards to game
 
     public void createPlayerHand() {
         MonstersEnum[] totalMonsters = MonstersEnum.values();
         for (int i = 0; i < monsterCards.length; i++) {
             int random = RandomMonster.generateRandomNumber(0, totalMonsters.length - 1);
             MonstersEnum monsterEnum = totalMonsters[random];
-            //start null
-            //TODO to set monsters null / fainted
+
             Monster monster = null;
 
             switch (monsterEnum.getMonsterType()) {
@@ -54,16 +52,7 @@ public class Player {
         }
     }
 
-    /*
-    public boolean hasLost() {
-        for (MonsterCard card : monsterCards) {
-            if (!card.isFainted()) {
-                return false; //Theres monsters alive
-            }
 
-        }
-        return true;
-    }*/
 
     public void showPlayerHand() {
         System.out.print("\n" + name + " has these monsters: ");
