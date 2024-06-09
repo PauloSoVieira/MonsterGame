@@ -16,7 +16,6 @@ public class Witch extends Supernatural implements Strikeable {
 
 
     public int getHealthBar() {
-       // System.out.println(healthBar);
         return healthBar;
     }
 
@@ -24,13 +23,7 @@ public class Witch extends Supernatural implements Strikeable {
         this.healthBar = health;
     }
 
-   /* public void attack(Strikeable p1Monster, Strikeable p2Monster) {
 
-        System.out.println(this.getName() + " starts to attack both players!");
-        super.attack(p1Monster);
-        super.attack(p2Monster);
-
-    }*/
     @Override
     public String toString() {
         if (this.getName() != null) {
@@ -42,7 +35,6 @@ public class Witch extends Supernatural implements Strikeable {
     @Override
     public void takeDamage(int decreaseAmount) {
 
-      //  System.out.println(this.getName() + " was hit with " + decreaseAmount + " of damage");
         this.setHealthBar(this.getHealthBar() - (decreaseAmount / 2));
         if (this.getHealthBar() <= 0) {
             System.out.println("Can she die?");

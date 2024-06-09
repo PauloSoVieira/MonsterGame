@@ -22,7 +22,6 @@ public abstract class Supernatural {
     }
 
     public void attack(Strikeable monster) {
-       // System.out.println(monster + " did " + getPower());
 
         monster.takeDamage(getPower());
 

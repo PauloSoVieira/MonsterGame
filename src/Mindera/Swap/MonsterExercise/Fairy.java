@@ -20,14 +20,7 @@ public class Fairy extends Supernatural {
         return "Fairy";
     }
 
-   /* public void attack(Strikeable p1Monster, Strikeable p2Monster) {
 
-        System.out.println("Fairy shows up in field");
-        super.attack(p1Monster);
-        super.attack(p2Monster);
-
-
-    }    */
 
 
     }

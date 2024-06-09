@@ -23,12 +23,6 @@ public class Werewolf extends Monster {
         System.out.println("Werewolf did " + getPower() + " of damage");
     }
 
-   /*
-    public void werewolfAttack(Monster monster) {
-        attack(monster);
-        System.out.println("Werewolf attacked once and did " + WEREWOLF.getAttackDamage() + " damage to enemy" + "\n");
-    }
 
-*/
 
 }

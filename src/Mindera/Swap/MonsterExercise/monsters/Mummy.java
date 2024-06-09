@@ -5,7 +5,6 @@ import Mindera.Swap.MonsterExercise.Strikeable;
 public class Mummy extends Monster {
     private int numberOfAttacks;
 
-    // 2 constructs
 
     public Mummy(int healthBar, int attackDmg , String name) {
         super(healthBar, attackDmg, name);
@@ -24,13 +23,13 @@ public class Mummy extends Monster {
             return;
         }
         if (numberOfAttacks < 2) {
-            super.attack(monster); // Call the parent class attack method to deal damage
+            super.attack(monster);
             System.out.println("Mummy attacked once and did " + getPower() + " damage to the enemy");
             numberOfAttacks++;
         } else {
             System.out.println("Mummy failed the attack and lost 5 HP");
-            setHealthBar(getHealthBar() - 5); // Mummy loses 5 HP on failed attack
-            numberOfAttacks = 0; // Reset attack counter
+            setHealthBar(getHealthBar() - 5);
+            numberOfAttacks = 0;
         }
     }
 }

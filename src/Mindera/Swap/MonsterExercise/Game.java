@@ -36,8 +36,7 @@ public class Game {
         }
     }
 
-    //TODO monsters attack Witch and fairy ( fairy cant be attacked)
-    //Random numbers to create obstacle , null = no obstacles in that turn
+
     public Supernatural createObstacle() {
         int random = RandomMonster.generateRandomNumber(0, 10);
         if (random == 2) {
@@ -54,7 +53,6 @@ public class Game {
     }
 
 
-    // game logic
     public boolean playRound(Player attacker, Player defender) {
         int randomAttackingMonster = findMonstersAlive(attacker);
         int randomDefendingMonster = findMonstersAlive(defender);
@@ -66,10 +64,8 @@ public class Game {
         MonsterCard attackingMonster = attacker.getMonsterCards()[randomAttackingMonster];
         MonsterCard defendingMonster = defender.getMonsterCards()[randomDefendingMonster];
 
-        // Verify if exist one obstacle first , attack and leave / null
         if (checkingIfObstacleExist(attackingMonster, defendingMonster)) return false;
 
-        //Starts normal turn player vs player
         System.out.println(attacker.getName() + " will attack with " + attackingMonster + " against " + defender.getName() + "'s monster " + defendingMonster);
 
         verifyMonsterAttackType(attackingMonster, defendingMonster);
@@ -135,7 +131,6 @@ public class Game {
     }
 
 
-    // Same as finding monster alive from player hand but now to obstacle attack
     private void attackRandomMonster(Player player, Supernatural obstacle) {
         int randomMonsterIndex = findMonstersAlive(player);
         if (randomMonsterIndex != -1) {
@@ -148,7 +143,6 @@ public class Game {
 
 
 
-    //Check monsters from player hand fining one alive
     private int findMonstersAlive(Player player) {
         MonsterCard[] monsters = player.getMonsterCards();
         int monstersAlive = 0;

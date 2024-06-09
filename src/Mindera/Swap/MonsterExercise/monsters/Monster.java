@@ -5,7 +5,6 @@ import Mindera.Swap.MonsterExercise.Supernatural;
 
 public abstract class Monster extends Supernatural implements Strikeable {
     protected int healthBar;
-  //  protected int attackDmg;
 
     public Monster(int healthBar, int attackDmg) {
         super(attackDmg);
@@ -20,17 +19,14 @@ public abstract class Monster extends Supernatural implements Strikeable {
 
     @Override
     public void takeDamage(int damage) {
-       // System.out.println("Monster current health: " + this.healthBar + ", taking damage: " + damage);
 
         this.healthBar -= damage;
         if (this.healthBar < 0) {
             this.healthBar = 0;
         }
-  //      System.out.println("Monster took damage: " + damage + ", updated health: " + this.healthBar); // Debugging statement
     }
     @Override
     public int getHealthBar() {
-     //   System.out.println(healthBar);
         return healthBar;
     }
 

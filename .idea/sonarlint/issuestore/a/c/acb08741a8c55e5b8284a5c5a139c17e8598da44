@@ -1,13 +1,11 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ãê·Íıÿÿÿÿ
-l
-java:S1450	"VRemove the "fainted" field and declare it as a local variable in the relevant methods.(•…³
-V	java:S125*"<This block of commented-out lines of code should be removed.(ÿóùşÿÿÿÿ
-D
-java:S11722".Remove this unused method parameter "fainted".(ôÒ‡©
-K
-java:S1068"0Remove this unused "attackDamage" private field.(¯Ò“ıÿÿÿÿ
-B
-java:S1068",Remove this unused "healtBar" private field.(•¬Ï‚
-A
-java:S1068	"+Remove this unused "fainted" private field.(•…³
+’
+java:S1450	"VRemove the "fainted" field and declare it as a local variable in the relevant methods.(•…³J$465f29b2-73c0-4a58-a40e-1d5bc4c30db2
+j
+java:S1172/".Remove this unused method parameter "fainted".(ôÒ‡©J$79cf06df-f0ce-462f-8276-d42ea4fd7a27
+q
+java:S1068"0Remove this unused "attackDamage" private field.(¯Ò“ıÿÿÿÿJ$e39de267-9e0c-4f50-9e48-84e8ae06cb62
+h
+java:S1068",Remove this unused "healtBar" private field.(•¬Ï‚J$2abff091-e240-4d01-bf94-89efb189e93e
+g
+java:S1068	"+Remove this unused "fainted" private field.(•…³J$f50991c0-1a6f-490d-b928-c9c6023141fc

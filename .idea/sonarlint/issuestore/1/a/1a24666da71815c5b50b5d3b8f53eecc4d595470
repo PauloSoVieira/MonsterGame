@@ -1,6 +1,4 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ãê·Íıÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(õñ€
-V	java:S125"<This block of commented-out lines of code should be removed.(Õƒíúÿÿÿÿ
-n
-java:S1128"XRemove this unused import 'Mindera.Swap.MonsterExercise.monsters.MonstersEnum.WEREWOLF'.(¶ì¥Å
+f	java:S106"+Replace this use of System.out by a logger.(õñ€J$c9569b88-5bd7-456e-9aa9-de7621571dd2
+”
+java:S1128"XRemove this unused import 'Mindera.Swap.MonsterExercise.monsters.MonstersEnum.WEREWOLF'.(¶ì¥ÅJ$a00aab5c-6439-46d5-8da2-7df2b1ffd646

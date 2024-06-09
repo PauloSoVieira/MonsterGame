@@ -39,10 +39,7 @@ public class MonsterCard {
         return monster;
     }
 
-   /* public void setMonster(Monster monster) {
-        this.monster = monster;
-    }
-*/
+
     public boolean isFainted() {
         return monster == null || monster.getHealthBar() <= 0;
     }

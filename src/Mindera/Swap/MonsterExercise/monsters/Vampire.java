@@ -10,7 +10,6 @@ public class Vampire extends Monster {
     private int drainLife = 2;
 
 
-    // 3 constructs
 
     public Vampire(int healthBar, int attackPower, String name) {
         super(healthBar, attackPower, name);
@@ -32,13 +31,13 @@ public class Vampire extends Monster {
             int damage = getPower();
             if (monster instanceof Witch) {
                 System.out.println("Vampire attacks the Witch with half damage!");
-                damage /= 2; // Inflict half damage to Witch so it will drain half of life
+                damage /= 2;
             }
             System.out.println("Vampire attacks with " + damage + " damage!");
             monster.takeDamage(damage);
             if (monster instanceof Witch) {
                 System.out.println("Witch receives half of the damage!");
-                this.drainLifeFromMonster(damage / 2); // drains half of total damage what is half here!
+                this.drainLifeFromMonster(damage / 2);
             }
         }
         super.attack(monster);
